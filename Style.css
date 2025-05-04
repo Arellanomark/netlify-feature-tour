@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: gold;
+    background-image: url("C:/Users/My PC/Downloads/BackGroundimage.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.navbar {
+    margin-bottom: 20px;
+}
+.container {
+    max-width: 900px;
+
+}
+.card {
+    transition: transform 0.3s ease-in-out;
+
+}
+.card:hover {
+    transform: scale(1.05);
+}   
+#payment {
+    
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+.card-img-top {
+    height: 325px; 
+    object-fit: cover; 
+    border-image-width: 200;
+}
